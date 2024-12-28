@@ -1,6 +1,7 @@
 //SGN, ONS, JSLN, JBB, JSSR, JSRK, JSSM, JMD, JSVM, JSP, JSRK
 const fs = require('fs');
 
+
 function printFileContents(filePath) {
   // TODO: Use fs.readFile to read the file contents
   fs.readFile(filePath, 'utf-8', (err, data) => {
@@ -18,7 +19,10 @@ function printFileContents(filePath) {
 
 }
 
+
+// Get the file path from the command-line argument
 const filePath = process.argv[2];
+
 if(!filePath){
   console.log("Please provide a file path.")
   process.exit(1);

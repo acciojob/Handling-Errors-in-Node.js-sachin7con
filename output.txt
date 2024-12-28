@@ -1,1 +1,1 @@
-SGN, ONS, JSP, SHSR, JBB, JSRK, JSM, JMD, JSVM, JSLN
+The Sum of Value is 29
