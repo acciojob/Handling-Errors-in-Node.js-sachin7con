@@ -16,13 +16,11 @@ function printFileContents(filePath) {
     }
   })
 
-
 }
 
-
-// Get the file path from the command-line argument
+//
 const filePath = process.argv[2];
-
+// file path 
 if(!filePath){
   console.log("Please provide a file path.")
   process.exit(1);
